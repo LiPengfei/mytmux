@@ -1,7 +1,5 @@
 # Default Theme
 
-set-window-option -g window-status-current-format "#[fg=colour235, bg=colour27]⮀#[fg=colour255, bg=colour27] #I ⮁ #W #[fg=colour27, bg=colour235]⮀"
-
 if patched_font_in_use; then
 	TMUX_POWERLINE_SEPARATOR_LEFT_BOLD="⮀"
 	TMUX_POWERLINE_SEPARATOR_LEFT_THIN="⮁"
